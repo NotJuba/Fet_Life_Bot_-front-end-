@@ -19,7 +19,7 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Stats />
         <About />
-        <YoutubeEmbed videoId="OK777frR8mg" />
+        <YoutubeEmbed videoId="KI_KK-Exmbg" />
         <Pricing />
         <Testimonials />
         <CTA />
