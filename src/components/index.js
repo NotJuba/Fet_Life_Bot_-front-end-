@@ -1,23 +1,28 @@
-import Navbar from "./Navbar";
-import Billing from "./Billing";
-import CardDeal from "./CardDeal";
-import Business from "./Business";
-import Clients from "./Clients";
-import CTA from "./CTA";
-import Stats from "./Stats";
-import Footer from "./Footer";
+import Navbar from "./Hero/Navbar";
+import Hero from "./Hero/Hero";
+
+import Stats from "./Middle/Stats";
+import About from "./Middle/About";
+
+import YoutubeEmbed from "./YoutubeEmbed";
+
+import Pricing from "./Pricing/Pricing";
+
 import Testimonials from "./Testimonials";
-import Hero from "./Hero";
+
+import CTA from "./End/CTA";
+import FAQ from './End/FAQ'
+import Footer from "./End/Footer";
 
 export {
   Navbar,
-  Billing,
-  CardDeal,
-  Business,
-  Clients,
-  CTA,
-  Stats,
-  Footer,
-  Testimonials,
   Hero,
+  Stats,
+  Testimonials,
+  CTA,
+  Footer,
+  YoutubeEmbed,
+  About,
+  FAQ,
+  Pricing,
 };

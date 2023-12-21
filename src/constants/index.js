@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03,carrent,mobile,backend,creator,web, telegram } from "../assets";
 
 export const navLinks = [
   {
@@ -6,12 +6,12 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
-  },
-  {
     id: "product",
     title: "Product",
+  },
+  {
+    id: "pricing",
+    title: "Pricing",
   },
   {
     id: "clients",
@@ -19,54 +19,49 @@ export const navLinks = [
   },
 ];
 
-export const features = [
-  {
-    id: "feature-1",
-    icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
-  },
-  {
-    id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
-  },
-  {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
-];
-
 export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "The bot's working great and bringing in some cash!",
     name: "Herman Jensen",
-    title: "Founder & Leader",
+    title: "Agency owner",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Got my investment back in just 2 days  pretty awesome stuff",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    title: "Agency owner",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "The bot works just fine but the issue is that FetLife users tend to be frugal You need to operate it at scale",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "Agency owner",
     img: people03,
+  },
+];
+
+export const services = [
+  {
+    title: "Mass Following",
+    icon: web,
+  },
+  {
+    title: "Mass Friend Adding",
+    icon: mobile,
+  },
+  {
+    title: "Mass DMs",
+    icon: backend,
+  },
+  {
+    title: "Run Services at Scale",
+    icon: creator,
   },
 ];
 
@@ -74,28 +69,30 @@ export const stats = [
   {
     id: "stats-1",
     title: "User Active",
-    value: "3800+",
+    value: "150+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Trusted by Agency",
+    value: "50+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Generated",
+    value: "$3M+",
   },
 ];
+
 
 export const footerLinks = [
   {
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Pricing",
+        link: "https://www.hoobank.com/how-it-works/",
       },
+
       {
         name: "How it Works",
         link: "https://www.hoobank.com/how-it-works/",
@@ -104,38 +101,14 @@ export const footerLinks = [
         name: "Create",
         link: "https://www.hoobank.com/create/",
       },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
     ],
   },
   {
     title: "Community",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "Telegram",
+        link: "https://t.me/datingappsbots",
       },
     ],
   },
@@ -143,12 +116,8 @@ export const footerLinks = [
     title: "Partner",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://t.me/yassin1542",
       },
     ],
   },
@@ -156,42 +125,45 @@ export const footerLinks = [
 
 export const socialMedia = [
   {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    id: "Telegram",
+    icon : telegram,
+    link: "https://t.me/yassin1542",
   },
 ];
 
-export const clients = [
+
+
+export const pricing = [
   {
-    id: "client-1",
-    logo: airbnb,
+    index : 1,
+    title : "package 1",
+    price : "100$",
+    feature1: "feature 1 ",
+    feature2: "feature 2 ",
+    feature3: "feature 3 ",
+    feature4: "feature 4 ",
+    feature5: "feature 5 ",
   },
+
   {
-    id: "client-2",
-    logo: binance,
+    index : 2,
+    title : "package 2",
+    price : "500$",
+    feature1: "feature 1 ",
+    feature2: "feature 2 ",
+    feature3: "feature 3 ",
+    feature4: "feature 4 ",
+    feature5: "feature 5 ",
   },
+
   {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
+    index : 3,
+    title : "package 3",
+    price : "999$",
+    feature1: "feature 1 ",
+    feature2: "feature 2 ",
+    feature3: "feature 3 ",
+    feature4: "feature 4 ",
+    feature5: "feature 5 ",
   },
 ];
